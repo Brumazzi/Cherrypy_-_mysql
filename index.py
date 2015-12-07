@@ -4,7 +4,7 @@
 import MySQLdb as mysql
 import cherrypy
 
-conn = mysql.connect("127.0.0.1", "root", "daniel21")
+conn = mysql.connect("127.0.0.1", "root", "")
 conn.select_db("cherrypy")
 
 class Server(object):
